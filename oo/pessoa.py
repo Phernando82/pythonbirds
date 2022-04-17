@@ -15,7 +15,13 @@ if __name__ == '__main__':
     print(rubens.cumprimentar())
     print(id(rubens))
     print(rubens.nome)
-    rubens.nome = 'Fernando'
-    print(rubens.nome)
     print(rubens.idade)
-    print(rubens.filhos)
+    for filho in rubens.filhos:
+        print(filho.nome)
+    rubens.sobrenome = 'Ramalho'
+    print(rubens.__dict__)
+    print(fernando.__dict__)
+    del rubens.sobrenome
+    print(rubens.__dict__)
+
+
