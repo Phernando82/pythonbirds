@@ -4,6 +4,8 @@ class Pessoa:
 
 if __name__ == '__main__':
     p = Pessoa()
+    print(Pessoa.cumprimentar(p))
     print(p.cumprimentar())
     print(id(p))
+
 
