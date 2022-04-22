@@ -62,6 +62,9 @@ class Fase():
         self._passaros.extend(passaros)
 
     def status(self):
+        # if Porco._caracter_ativo == '@' and Passaro._caracter_ativo == 'A':
+        #     return EM_ANDAMENTO
+        # elif
         """
         Método que indica com mensagem o status do jogo
 
@@ -73,7 +76,7 @@ class Fase():
 
         :return:
         """
-        return EM_ANDAMENTO
+        return VITORIA
 
     def lancar(self, angulo, tempo):
         """
