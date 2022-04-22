@@ -94,6 +94,16 @@ class Carro:
         self.motor.frear()
     
     def calcular_direcao(self):
+        return self.direcao.valor
+
+    def girar_a_direita(self):
+        self.direcao.girar_a_direita()
+
+    def girar_a_esquerda(self):
+        self.direcao.girar_a_esquerda()
+
+
+
 class Direcao:
 
     rotacao_a_direita_dct = {
