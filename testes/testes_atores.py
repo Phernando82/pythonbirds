@@ -266,7 +266,6 @@ class PassaroAmareloTests(PassaroBaseTests):
         passaro_amarelo.lancar(90, 2)  # passaro lancado a 90 graus no tempo 2 segundos
 
 
-
         # subindo
 
         self.assert_posicao_vertical(1, 2.0, passaro_amarelo)
